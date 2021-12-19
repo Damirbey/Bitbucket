@@ -1,0 +1,18 @@
+header {
+  height: 20px;
+  margin: 0 auto;
+  padding: 20px 0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+img{
+  display: inline;
+  margin-left:3px;
+  float:left;
+}
+.activity{
+  font-size: 18px;
+  float:left;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer; 
+}

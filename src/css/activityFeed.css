@@ -1,0 +1,50 @@
+.ActivityFeed{
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+}
+.fa-phone{
+    float:left;
+    margin-right: 10px;
+}
+.callText{
+    max-width: 250px;
+    display: inline;
+}
+.callTime{
+    float:right;
+    max-width: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top:-14px;
+    padding: 5px;
+}
+.callCard{
+    max-width:350px;
+    background-color:#fff;
+    border-radius: 5px;
+    padding:20px;
+    margin:10px auto;
+    cursor: pointer;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+}
+.line:before, .line:after{
+    color:#ccc;
+    content:'';
+    flex:1;
+    border-bottom:dotted 1px;
+    margin:auto 0.25em;
+    box-shadow: 0 -1px
+}
+.line:before {
+    margin-right: 10px
+}
+.line:after {
+    margin-left: 10px
+}
+.header{
+    font-size: 18px;
+    cursor: pointer;
+}
